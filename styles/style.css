@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+@media screen and ( min-width: 376px) {
+    body {
+        width: 100vw;
+        height: 101vh;
+    }
+
+    main {
+        width: 100%;
+        height: 99.01%;
+        background-color: hsl(204, 43%, 93%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 44.2%;
+        height: 59.5%;
+        display: flex;
+        flex-direction: column;
+        margin-top: .1rem;
+        box-shadow: 0px 5px 20px hsl(0, 100%, 0%, .2);
+        border-radius: 6px;
+    }
+
+    .community-container {
+        width: 100%;
+        height: 45.3%;
+        background-color: white;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .community-container > h1 {
+        margin-top: 2.5rem;
+        margin-left: 2.5rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: hsl(179, 62%, 43%);
+        font-size: 23.6px;
+    }
+
+    .community-container > h2 {
+        margin-top: 1.55rem;
+        margin-left: 2.5rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: hsl(71, 73%, 54%);
+        font-size: 17.6px;
+    }
+
+    .community-container > p {
+        width: 81.5%;
+        margin-top: 0.8rem;
+        margin-left: 2.6rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(218, 22%, 67%);
+        font-size: 15.62px;
+        line-height: 25.5px;
+    }
+
+    .container > div {
+        display: flex;
+        width: 100%;
+        height: 54.7%;
+    }
+
+    .subscription-container {
+        height: 100%;
+        width: 50%;
+        background-color: hsl(179, 62%, 43%);
+        border-radius: 0px 0px 0px 8px;
+    }
+
+    .subscription-container > h1 {
+        margin-top: 2.6rem;
+        margin-left: 2.6rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 17.5px;
+    }
+
+    .product-cost-container {
+        display: flex;
+        margin-top: 1.05rem;
+        margin-left: 2.5rem;
+    }
+
+    .cost {
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 32.5px;
+        padding-right: 0.64rem;    
+    }
+
+    .date {
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 0.64rem;
+        color: hsl(204, 43%, 93%, .4);
+    }
+
+    .cost-breakdown {
+        margin-top: 0.5rem;
+        margin-left: 2.6rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(204, 43%, 93%, .9);
+        font-size: 15.5px;
+    }
+
+    .subscription-container > button {
+        margin-top: 1.9rem;
+        margin-left: 2.5rem;
+        width: 75%;
+        height: 18%;
+        background-color: hsl(71, 73%, 54%);
+        border: 0px solid black;
+        border-radius: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 16px;
+        box-shadow: 0px 5px 5px hsl(0, 100%, 0%, .1);
+    }
+
+    .testimonial-container {
+        width: 50%;
+        background-color: hsl(179, 62%, 43%, .85);
+        border-radius: 0px 0px 6px 0px;
+    }
+
+    .testimonial-container > h1 {
+        margin-top: 2.55rem;
+        margin-left: 2.45rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 18px;
+    }
+
+    .reasons-container {
+        margin-top: 1.0rem;
+        margin-left: 2.45rem;
+    }
+
+    .reasons-container > p {
+        width: 66%;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(204, 43%, 93%, .6);
+        font-size: 13.8px;
+        line-height: 20px;
+    }
+}
+
+@media screen and ( max-width: 375px) {
+    body {
+        width: 100vw;
+        height: 101vh;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        background-color: hsl(204, 43%, 93%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 83%;
+        height: 82.5%;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: .3rem;
+        box-shadow: 0px 5px 20px hsl(0, 100%, 0%, .2);
+        border-radius: 6px;
+    }
+
+    .community-container {
+        width: 100%;
+        height: 37.2%;
+        background-color: white;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .community-container > h1 {
+        margin-top: 1.8rem;
+        margin-left: 1.44rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: hsl(179, 62%, 43%);
+        font-size: 19.8px;
+    }
+
+    .community-container > h2 {
+        margin-top: 1.6rem;
+        margin-left: 1.53rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: hsl(71, 73%, 54%);
+        font-size: 14.6px;
+        line-height: 20px;
+    }
+
+    .community-container > p {
+        width: 84.5%;
+        margin-top: .89rem;
+        margin-left: 1.45rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(218, 22%, 67%);
+        font-size: 13.8px;
+        line-height: 26px;
+    }
+
+    .container > div {
+        width: 100%;
+        height: 62.8%;
+    }
+
+    .subscription-container {
+        height: 50%;
+        width: 100%;
+        background-color: hsl(179, 62%, 43%);
+    }
+
+    .subscription-container > h1 {
+        margin-left: 1.45rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 17.7px;
+        padding-top: 1.55rem;
+    }
+
+    .product-cost-container {
+        display: flex;
+        margin-top: 1.05rem;
+        margin-left: 1.45rem;
+    }
+
+    .cost {
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 32.5px;
+        padding-right: 0.65rem;   
+    }
+
+    .date {
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: .65rem;
+        color: hsl(204, 43%, 93%, .4);
+        font-size: 15.9px;
+    }
+
+    .cost-breakdown {
+        margin-top: 0.5rem;
+        margin-left: 1.5rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(204, 43%, 93%, .9);
+        font-size: 15.57px;
+    }
+
+    .subscription-container > button {
+        margin-top: 1.9rem;
+        margin-left: 1.49rem;
+        width: 84.5%;
+        height: 21%;
+        background-color: hsl(71, 73%, 54%);
+        border: 0px solid black;
+        border-radius: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 16px;
+        box-shadow: 0px 5px 5px hsl(0, 100%, 0%, .1);
+    }
+
+    .testimonial-container {
+        width: 100%;
+        height: 50.1%;
+        background-color: hsl(179, 62%, 43%, .85);
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .testimonial-container > h1 {
+        margin-left: 1.45rem;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        font-size: 18px;
+        padding-top: 1.55rem;
+    }
+
+    .reasons-container {
+        margin-top: 1.2rem;
+        margin-left: 1.42rem;
+    }
+
+    .reasons-container > p {
+        width: 66%;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(204, 43%, 93%, .6);
+        font-size: 13.8px;
+        line-height: 20px;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
